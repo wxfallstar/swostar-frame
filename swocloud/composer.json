@@ -1,0 +1,26 @@
+{
+    "name": "fallstar/swocloud",
+    "authors": [
+        {
+            "name": "wxfallstar",
+            "email": "wxfallstar@qq.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2"
+    },
+    "repositories": {
+        "wxfallstar": {
+            "type": "path",
+            "url": "../swostar"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SwoCloud\\": "./src/"
+        },
+        "files":[
+            "src/Supper/Helper.php"
+        ]
+    }
+}

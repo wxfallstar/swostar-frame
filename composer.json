@@ -1,0 +1,27 @@
+{
+    "name": "wxfallstar/swostar-frame",
+    "type": "library",
+    "authors": [
+        {
+            "name": "wxfallstar",
+            "email": "wxfallstar@qq.com"
+        }
+    ],
+    "require": {
+        "wxfallstar/swostar": "1.0",
+        "swoft/swoole-ide-helper": "^4.4",
+        "firebase/php-jwt": "^5.2"
+    },
+    "repositories": {
+        "wxfallstar": {
+            "type": "path",
+            "url": "../swostar"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\": "database/"
+        }
+    }
+}
